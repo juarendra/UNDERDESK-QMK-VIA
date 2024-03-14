@@ -67,8 +67,4 @@ https://github.com/juarendra/Lianumpad-QMK-VIA/assets/43043633/daf05cb3-5ffb-489
 - setelah selesai copynya maka macropad secara otomatis akan tereset
 - anda dapat mengetesnya
 
-<p align="center">
-  <img src="DOC/RP2040_Thing_Plus_uf2_micropython.gif" width="25%" height="25%">
-</p>
-
 ![](DOC/RP2040_Thing_Plus_uf2_micropython.gif)
