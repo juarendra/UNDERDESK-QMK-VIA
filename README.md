@@ -52,8 +52,6 @@ Link Download VIA(Pilih sesuai OS) : https://github.com/the-via/releases/release
 VIA WEB VERSION : https://usevia.app/
 
 ## Preview VIA
-<p align="center">
+
 https://github.com/juarendra/Lianumpad-QMK-VIA/assets/43043633/daf05cb3-5ffb-4896-910a-576f78afdfc5
 
-
-</p>
