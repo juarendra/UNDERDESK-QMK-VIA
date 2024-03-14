@@ -15,7 +15,7 @@ this Device can automatically detect on VIA, just need PC with Intercet Connecti
 - Connect your macropad to PC
 - Open VIA
 - It will auto detect
-## load JSON File
+## Load JSON File
 or you can load manually json file like a library for detect this macropad
 - Connect your macropad to PC
 - Open VIA
@@ -53,10 +53,6 @@ VIA WEB VERSION : https://usevia.app/
 
 ## Preview VIA
 <p align="center">
-  <img src="DOC/VIA/via.jpeg" width="50%" height="50%">
-  
-
-
 https://github.com/juarendra/Lianumpad-QMK-VIA/assets/43043633/daf05cb3-5ffb-4896-910a-576f78afdfc5
 
 
