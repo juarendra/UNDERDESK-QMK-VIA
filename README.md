@@ -63,12 +63,10 @@ https://github.com/juarendra/Lianumpad-QMK-VIA/assets/43043633/daf05cb3-5ffb-489
 - Tekan dan tahan tombol knobnya. lalu colokan Ujung USB yang sebelum ke USB PC anda sambil tetap menahan tombol knob nya sebentar
 - Setelah ada bunyi/notif USB masuk. anda dapat melepaskan tombol knobnya
 - Lalu akan muncul drive baru di "my computer" anda seperti gambar dibawah
- 
-<p align="center">
-  <img src="DOC/HARDWARE/RP2040_Thing_Plus_uf2_micropython.gif" width="25%" height="25%">
-</p>
-  
-
 - lalu copy file firmware yang sudah di download sebelumnya ke drive baru tersebut
 - setelah selesai copynya maka macropad secara otomatis akan tereset
-- anda dapat mengetesnya 
+- anda dapat mengetesnya
+
+<p align="center">
+  <img src="DOC/RP2040_Thing_Plus_uf2_micropython.gif" width="25%" height="25%">
+</p>
