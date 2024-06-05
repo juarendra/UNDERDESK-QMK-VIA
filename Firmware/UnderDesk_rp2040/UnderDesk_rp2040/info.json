@@ -17,7 +17,7 @@
         "direct": [["GP16", "GP9","GP10", "GP11", "GP12", "GP13", "GP17", "GP18"]]
     },
     "processor": "RP2040",
-    "url": "https://scottokeebs.com",
+    "url": "https://www.tokopedia.com/positronelectronic",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x6273",
