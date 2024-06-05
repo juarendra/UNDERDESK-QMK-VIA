@@ -1,4 +1,3 @@
-<<<<<<< HEAD:Firmware/UnderDesk_rp2040/UnderDesk_rp2040/config.h
 /* Copyright 2024 Juarendra Ramadhani <jrjuarendra@gmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
@@ -25,16 +24,3 @@
 
 #define WS2812_DI_PIN GP8 //D3 - underglow C7 - backlight
 #define RGBLED_NUM 1    // Number of L
-=======
-#pragma once
-
-#define DEBOUNCE 5
-
-#define ENCODERS_PAD_A {GP15}
-#define ENCODERS_PAD_B {GP14}
-//#define ENCODER_DIRECTION_FLIP
-#define ENCODER_RESOLUTIONS {4}
-
-#define WS2812_DI_PIN GP8 //D3 - underglow C7 - backlight
-#define RGBLED_NUM 1    // Number of L
->>>>>>> e26f3d14d1c553058dfe8ecd0bc586a783bb7011:FIRMWARE/UnderDesk_rp2040/config.h
