@@ -55,3 +55,16 @@ VIA WEB VERSION : https://usevia.app/
 
 https://github.com/juarendra/Lianumpad-QMK-VIA/assets/43043633/daf05cb3-5ffb-4896-910a-576f78afdfc5
 
+
+## UPDATE/UPGRADE FIRMWARE 
+- Siapkan dahulu macropad, kabel usb dan firmware yang ingin di update/upgrade ke macropad anda
+- Firmware untuk underdesk_rp2040 dapat di download di github ini yang ada di folder "FIRMWARE" dengan nama underdesk_rp2040_default.uf2
+- Colok kabel ujung usb type C ke macropad tanpa mencolokannya dahulu ke USB PC anda
+- Tekan dan tahan tombol knobnya. lalu colokan Ujung USB yang sebelum ke USB PC anda sambil tetap menahan tombol knob nya sebentar
+- Setelah ada bunyi/notif USB masuk. anda dapat melepaskan tombol knobnya
+- Lalu akan muncul drive baru di "my computer" anda seperti gambar dibawah
+- lalu copy file firmware yang sudah di download sebelumnya ke drive baru tersebut
+- setelah selesai copynya maka macropad secara otomatis akan tereset
+- anda dapat mengetesnya
+
+[gambar](https://github.com/juarendra/UNDERDESK-QMK-VIA/blob/b7f88551717e8fc3ce67ff01a38f30c7589b30f5/DOC/RP2040_Thing_Plus_uf2_micropython.gif)
