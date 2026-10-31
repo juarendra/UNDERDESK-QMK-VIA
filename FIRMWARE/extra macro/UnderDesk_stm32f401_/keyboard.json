@@ -18,6 +18,11 @@
     "matrix_pins": {
         "direct": [["A0", "A1", "A2", "A3"], ["A4", "A5", "A6", "A7"]]
     },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "B0", "pin_b": "B1", "resolution": 4 }
+        ]
+    },
     "processor": "STM32F401",
     "url": "https://github.com/juarendra/UNDERDESK-QMK-VIA",
     "usb": {
