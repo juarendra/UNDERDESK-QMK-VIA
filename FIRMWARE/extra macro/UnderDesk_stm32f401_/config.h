@@ -7,4 +7,5 @@
 #define ENCODER_DIRECTION_FLIP
 
 #define WS2812_DI_PIN B10
-#define RGBLED_NUM 1
+#define RGBLIGHT_LED_COUNT 1
+#define MIDI_BASIC
