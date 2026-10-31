@@ -11,7 +11,7 @@ This conversion assumes an STM32F401 Black Pill-compatible board wired as follow
 - WS2812 data: `PB10`
 - USB DFU bootloader: `stm32-dfu`
 
-Change `info.json` and `config.h` if the STM32F401 board uses different GPIO wiring. USB pins `PA11` and `PA12`, SWD pins `PA13` and `PA14`, and oscillator pins should remain available for their board functions.
+Change `keyboard.json` and `config.h` if the STM32F401 board uses different GPIO wiring. USB pins `PA11` and `PA12`, SWD pins `PA13` and `PA14`, and oscillator pins should remain available for their board functions.
 
 ## Build
 
