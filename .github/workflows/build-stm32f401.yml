@@ -25,11 +25,11 @@ jobs:
           submodules: recursive
 
       - name: Install keyboard source
-        run: cp -R "source/FIRMWARE/extra macro/UnderDesk_stm32f401_" qmk_firmware/keyboards/underdesk_stm32f401_
+        run: cp -R "source/FIRMWARE/extra macro/UnderDesk_stm32f401_" qmk_firmware/keyboards/underdesk_stm32f401
 
       - name: Compile firmware
         working-directory: qmk_firmware
-        run: qmk compile -kb underdesk_stm32f401_ -km default
+        run: qmk compile -kb underdesk_stm32f401 -km default
 
       - name: Upload flash file
         uses: actions/upload-artifact@v4
