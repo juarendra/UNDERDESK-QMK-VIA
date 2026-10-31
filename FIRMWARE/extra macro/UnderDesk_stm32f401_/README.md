@@ -18,7 +18,7 @@ Change `info.json` and `config.h` if the STM32F401 board uses different GPIO wir
 Copy this directory into the QMK `keyboards/` directory, then run:
 
 ```sh
-qmk compile -kb underdesk_stm32f401_ -km default
+qmk compile -kb underdesk_stm32f401 -km default
 ```
 
 The build produces a `.bin` firmware file. Put the STM32F401 board into USB DFU mode before flashing with QMK's `:dfu-util` target or `dfu-util` directly.
