@@ -1,0 +1,40 @@
+name: Build STM32F401 firmware
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: ghcr.io/qmk/qmk_cli
+
+    steps:
+      - name: Disable git safe directory checks
+        run: git config --global --add safe.directory '*'
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Checkout QMK firmware
+        uses: actions/checkout@v4
+        with:
+          repository: qmk/qmk_firmware
+          path: qmk_firmware
+          submodules: recursive
+
+      - name: Install keyboard source
+        run: cp -R "source/FIRMWARE/extra macro/UnderDesk_stm32f401_" qmk_firmware/keyboards/underdesk_stm32f401_
+
+      - name: Compile firmware
+        working-directory: qmk_firmware
+        run: qmk compile -kb underdesk_stm32f401_ -km default
+
+      - name: Upload flash file
+        uses: actions/upload-artifact@v4
+        with:
+          name: underdesk-stm32f401-firmware
+          path: qmk_firmware/*.bin
+          if-no-files-found: error
+          retention-days: 14
