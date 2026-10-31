@@ -8,4 +8,3 @@
 
 #define WS2812_DI_PIN B10
 #define RGBLED_NUM 1
-#define MIDI_BASIC
